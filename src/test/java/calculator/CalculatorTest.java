@@ -33,4 +33,17 @@ public class CalculatorTest {
 
         assertEquals(30, calculator.getResult());
     }
+
+    @Test
+    void multiplyErrorIfOnlyOneNumber(){
+        Calculator calculator = new Calculator();
+        calculator.enter(5);
+        assertThrows(IllegalStateException.class, calculator::mul);
+    }
+
+    @Test
+    void multiplyErrorIfThereAreNoNumbers(){
+        Calculator calculator = new Calculator();
+        assertThrows(IllegalStateException.class, calculator::mul);
+    }
 }

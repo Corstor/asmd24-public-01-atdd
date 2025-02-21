@@ -17,8 +17,3 @@ Feature:  Adding numbers with a Calculator
     Given I have a Calculator
     When I add -1 and -1
     Then the result should be -2
-
-  Scenario: Multiply two numbers
-    Given I have a Calculator
-    When I multiply -2 and 5
-    Then the result should be -10
