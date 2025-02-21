@@ -6,14 +6,19 @@ Feature:  Adding numbers with a Calculator
   Scenario:  Add two positive numbers
     Given I have a Calculator
     When I add 1 and 1
-    Then the sum should be 2
+    Then the result should be 2
 
   Scenario:  Add a positive and negative number
     Given I have a Calculator
     When I add 1 and -1
-    Then the sum should be 0
+    Then the result should be 0
 
   Scenario:  Add two negative numbers
     Given I have a Calculator
     When I add -1 and -1
-    Then the sum should be -2
+    Then the result should be -2
+
+  Scenario: Multiply two numbers
+    Given I have a Calculator
+    When I multiply -2 and 5
+    Then the result should be -10
