@@ -12,6 +12,19 @@ class ScalaCalculatorTest extends AnyFlatSpec with BeforeAndAfterEach:
     calculator = new ScalaCalculator()
 
   "Calculator" should "enter a number" in:
-    val calculator = new ScalaCalculator()
     calculator.enter(5)
     calculator.result shouldBe 5
+
+  it should "add two numbers" in:
+    calculator.enter(5)
+    calculator.enter(3)
+    calculator.add()
+    calculator.result shouldBe 8
+
+  it should "add three numbers" in:
+    calculator.enter(3)
+    calculator.enter(4)
+    calculator.add()
+    calculator.enter(-4)
+    calculator.add()
+    calculator.result shouldBe 3
