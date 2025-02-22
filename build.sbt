@@ -7,6 +7,7 @@ lazy val root = (project in file("."))
     libraryDependencies ++= Seq(
         "net.aichler" % "jupiter-interface" % JupiterKeys.jupiterVersion.value % Test,
         "io.cucumber" %% "cucumber-scala" % "8.26.1" % Test,
+        "org.scalatest" %% "scalatest" % "3.2.19" % Test,
         "io.cucumber" % "cucumber-java" % "7.21.1" % Test)
 
 )
