@@ -1,0 +1,622 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "root-test",
+        "directory": "C:\\Users\\corra\\Desktop\\Progetti\\ASMD\\asmd24-public-01-atdd",
+        "workspaceDir": "C:\\Users\\corra\\Desktop\\Progetti\\ASMD\\asmd24-public-01-atdd",
+        "sources": [
+            "C:\\Users\\corra\\Desktop\\Progetti\\ASMD\\asmd24-public-01-atdd\\src\\test\\scala",
+            "C:\\Users\\corra\\Desktop\\Progetti\\ASMD\\asmd24-public-01-atdd\\src\\test\\scala-2.12",
+            "C:\\Users\\corra\\Desktop\\Progetti\\ASMD\\asmd24-public-01-atdd\\src\\test\\scala-2",
+            "C:\\Users\\corra\\Desktop\\Progetti\\ASMD\\asmd24-public-01-atdd\\src\\test\\java",
+            "C:\\Users\\corra\\Desktop\\Progetti\\ASMD\\asmd24-public-01-atdd\\target\\scala-2.12\\src_managed\\test"
+        ],
+        "dependencies": [
+            "root"
+        ],
+        "classpath": [
+            "C:\\Users\\corra\\Desktop\\Progetti\\ASMD\\asmd24-public-01-atdd\\.bloop\\root\\scala-2.12\\classes",
+            "C:\\Users\\corra\\.sbt\\boot\\scala-2.12.18\\lib\\scala-library.jar",
+            "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\aichler\\jupiter-interface\\0.11.1\\jupiter-interface-0.11.1.jar",
+            "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\cucumber\\cucumber-java\\7.21.1\\cucumber-java-7.21.1.jar",
+            "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\junit\\platform\\junit-platform-launcher\\1.9.1\\junit-platform-launcher-1.9.1.jar",
+            "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\junit\\jupiter\\junit-jupiter-engine\\5.9.1\\junit-jupiter-engine-5.9.1.jar",
+            "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\test-interface\\1.0\\test-interface-1.0.jar",
+            "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\cucumber\\cucumber-core\\7.21.1\\cucumber-core-7.21.1.jar",
+            "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apiguardian\\apiguardian-api\\1.1.2\\apiguardian-api-1.1.2.jar",
+            "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\junit\\platform\\junit-platform-engine\\1.9.1\\junit-platform-engine-1.9.1.jar",
+            "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\junit\\jupiter\\junit-jupiter-api\\5.9.1\\junit-jupiter-api-5.9.1.jar",
+            "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\cucumber\\cucumber-gherkin\\7.21.1\\cucumber-gherkin-7.21.1.jar",
+            "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\cucumber\\cucumber-gherkin-messages\\7.21.1\\cucumber-gherkin-messages-7.21.1.jar",
+            "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\cucumber\\messages\\27.2.0\\messages-27.2.0.jar",
+            "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\cucumber\\testng-xml-formatter\\0.3.1\\testng-xml-formatter-0.3.1.jar",
+            "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\cucumber\\tag-expressions\\6.1.2\\tag-expressions-6.1.2.jar",
+            "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\cucumber\\cucumber-expressions\\18.0.1\\cucumber-expressions-18.0.1.jar",
+            "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\cucumber\\datatable\\7.21.1\\datatable-7.21.1.jar",
+            "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\cucumber\\cucumber-plugin\\7.21.1\\cucumber-plugin-7.21.1.jar",
+            "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\cucumber\\docstring\\7.21.1\\docstring-7.21.1.jar",
+            "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\cucumber\\html-formatter\\21.9.0\\html-formatter-21.9.0.jar",
+            "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\cucumber\\junit-xml-formatter\\0.7.1\\junit-xml-formatter-0.7.1.jar",
+            "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\cucumber\\ci-environment\\10.0.1\\ci-environment-10.0.1.jar",
+            "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\opentest4j\\opentest4j\\1.2.0\\opentest4j-1.2.0.jar",
+            "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\junit\\platform\\junit-platform-commons\\1.9.1\\junit-platform-commons-1.9.1.jar",
+            "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\cucumber\\gherkin\\31.0.0\\gherkin-31.0.0.jar",
+            "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\cucumber\\query\\13.2.0\\query-13.2.0.jar"
+        ],
+        "out": "C:\\Users\\corra\\Desktop\\Progetti\\ASMD\\asmd24-public-01-atdd\\.bloop\\root",
+        "classesDir": "C:\\Users\\corra\\Desktop\\Progetti\\ASMD\\asmd24-public-01-atdd\\.bloop\\root\\scala-2.12\\test-classes",
+        "resources": [
+            "C:\\Users\\corra\\Desktop\\Progetti\\ASMD\\asmd24-public-01-atdd\\src\\test\\resources",
+            "C:\\Users\\corra\\Desktop\\Progetti\\ASMD\\asmd24-public-01-atdd\\target\\scala-2.12\\resource_managed\\test"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.12.18",
+            "options": [
+                
+            ],
+            "jars": [
+                "C:\\Users\\corra\\.sbt\\boot\\scala-2.12.18\\lib\\scala-library.jar",
+                "C:\\Users\\corra\\.sbt\\boot\\scala-2.12.18\\lib\\scala-compiler.jar",
+                "C:\\Users\\corra\\.sbt\\boot\\scala-2.12.18\\lib\\scala-reflect.jar",
+                "C:\\Users\\corra\\.sbt\\boot\\scala-2.12.18\\lib\\scala-xml_2.12-2.1.0.jar"
+            ],
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "zio.test.sbt.ZTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "weaver.framework.CatsEffect"
+                    ]
+                },
+                {
+                    "names": [
+                        "hedgehog.sbt.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "net.aichler.jupiter.api.JupiterFramework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "C:\\Program Files\\Java\\jdk-21",
+                "options": [
+                    "-Duser.dir=C:\\Users\\corra\\Desktop\\Progetti\\ASMD\\asmd24-public-01-atdd"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.18",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "C:\\Users\\corra\\.sbt\\boot\\scala-2.12.18\\lib\\scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.12.18\\scala-library-2.12.18-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.18",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "C:\\Users\\corra\\.sbt\\boot\\scala-2.12.18\\lib\\scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.12.18\\scala-library-2.12.18-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.aichler",
+                    "name": "jupiter-interface",
+                    "version": "0.11.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jupiter-interface",
+                            "path": "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\aichler\\jupiter-interface\\0.11.1\\jupiter-interface-0.11.1.jar"
+                        },
+                        {
+                            "name": "jupiter-interface",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\aichler\\jupiter-interface\\0.11.1\\jupiter-interface-0.11.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.cucumber",
+                    "name": "cucumber-java",
+                    "version": "7.21.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cucumber-java",
+                            "path": "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\cucumber\\cucumber-java\\7.21.1\\cucumber-java-7.21.1.jar"
+                        },
+                        {
+                            "name": "cucumber-java",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\cucumber\\cucumber-java\\7.21.1\\cucumber-java-7.21.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.platform",
+                    "name": "junit-platform-launcher",
+                    "version": "1.9.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "junit-platform-launcher",
+                            "path": "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\junit\\platform\\junit-platform-launcher\\1.9.1\\junit-platform-launcher-1.9.1.jar"
+                        },
+                        {
+                            "name": "junit-platform-launcher",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\junit\\platform\\junit-platform-launcher\\1.9.1\\junit-platform-launcher-1.9.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.jupiter",
+                    "name": "junit-jupiter-engine",
+                    "version": "5.9.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "junit-jupiter-engine",
+                            "path": "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\junit\\jupiter\\junit-jupiter-engine\\5.9.1\\junit-jupiter-engine-5.9.1.jar"
+                        },
+                        {
+                            "name": "junit-jupiter-engine",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\junit\\jupiter\\junit-jupiter-engine\\5.9.1\\junit-jupiter-engine-5.9.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-sbt",
+                    "name": "test-interface",
+                    "version": "1.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "test-interface",
+                            "path": "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\test-interface\\1.0\\test-interface-1.0.jar"
+                        },
+                        {
+                            "name": "test-interface",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\test-interface\\1.0\\test-interface-1.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.cucumber",
+                    "name": "cucumber-core",
+                    "version": "7.21.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cucumber-core",
+                            "path": "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\cucumber\\cucumber-core\\7.21.1\\cucumber-core-7.21.1.jar"
+                        },
+                        {
+                            "name": "cucumber-core",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\cucumber\\cucumber-core\\7.21.1\\cucumber-core-7.21.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apiguardian",
+                    "name": "apiguardian-api",
+                    "version": "1.1.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "apiguardian-api",
+                            "path": "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apiguardian\\apiguardian-api\\1.1.2\\apiguardian-api-1.1.2.jar"
+                        },
+                        {
+                            "name": "apiguardian-api",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apiguardian\\apiguardian-api\\1.1.2\\apiguardian-api-1.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.platform",
+                    "name": "junit-platform-engine",
+                    "version": "1.9.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "junit-platform-engine",
+                            "path": "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\junit\\platform\\junit-platform-engine\\1.9.1\\junit-platform-engine-1.9.1.jar"
+                        },
+                        {
+                            "name": "junit-platform-engine",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\junit\\platform\\junit-platform-engine\\1.9.1\\junit-platform-engine-1.9.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.jupiter",
+                    "name": "junit-jupiter-api",
+                    "version": "5.9.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "junit-jupiter-api",
+                            "path": "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\junit\\jupiter\\junit-jupiter-api\\5.9.1\\junit-jupiter-api-5.9.1.jar"
+                        },
+                        {
+                            "name": "junit-jupiter-api",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\junit\\jupiter\\junit-jupiter-api\\5.9.1\\junit-jupiter-api-5.9.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.cucumber",
+                    "name": "cucumber-gherkin",
+                    "version": "7.21.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cucumber-gherkin",
+                            "path": "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\cucumber\\cucumber-gherkin\\7.21.1\\cucumber-gherkin-7.21.1.jar"
+                        },
+                        {
+                            "name": "cucumber-gherkin",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\cucumber\\cucumber-gherkin\\7.21.1\\cucumber-gherkin-7.21.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.cucumber",
+                    "name": "cucumber-gherkin-messages",
+                    "version": "7.21.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cucumber-gherkin-messages",
+                            "path": "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\cucumber\\cucumber-gherkin-messages\\7.21.1\\cucumber-gherkin-messages-7.21.1.jar"
+                        },
+                        {
+                            "name": "cucumber-gherkin-messages",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\cucumber\\cucumber-gherkin-messages\\7.21.1\\cucumber-gherkin-messages-7.21.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.cucumber",
+                    "name": "messages",
+                    "version": "27.2.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "messages",
+                            "path": "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\cucumber\\messages\\27.2.0\\messages-27.2.0.jar"
+                        },
+                        {
+                            "name": "messages",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\cucumber\\messages\\27.2.0\\messages-27.2.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.cucumber",
+                    "name": "testng-xml-formatter",
+                    "version": "0.3.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "testng-xml-formatter",
+                            "path": "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\cucumber\\testng-xml-formatter\\0.3.1\\testng-xml-formatter-0.3.1.jar"
+                        },
+                        {
+                            "name": "testng-xml-formatter",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\cucumber\\testng-xml-formatter\\0.3.1\\testng-xml-formatter-0.3.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.cucumber",
+                    "name": "tag-expressions",
+                    "version": "6.1.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "tag-expressions",
+                            "path": "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\cucumber\\tag-expressions\\6.1.2\\tag-expressions-6.1.2.jar"
+                        },
+                        {
+                            "name": "tag-expressions",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\cucumber\\tag-expressions\\6.1.2\\tag-expressions-6.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.cucumber",
+                    "name": "cucumber-expressions",
+                    "version": "18.0.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cucumber-expressions",
+                            "path": "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\cucumber\\cucumber-expressions\\18.0.1\\cucumber-expressions-18.0.1.jar"
+                        },
+                        {
+                            "name": "cucumber-expressions",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\cucumber\\cucumber-expressions\\18.0.1\\cucumber-expressions-18.0.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.cucumber",
+                    "name": "datatable",
+                    "version": "7.21.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "datatable",
+                            "path": "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\cucumber\\datatable\\7.21.1\\datatable-7.21.1.jar"
+                        },
+                        {
+                            "name": "datatable",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\cucumber\\datatable\\7.21.1\\datatable-7.21.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.cucumber",
+                    "name": "cucumber-plugin",
+                    "version": "7.21.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cucumber-plugin",
+                            "path": "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\cucumber\\cucumber-plugin\\7.21.1\\cucumber-plugin-7.21.1.jar"
+                        },
+                        {
+                            "name": "cucumber-plugin",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\cucumber\\cucumber-plugin\\7.21.1\\cucumber-plugin-7.21.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.cucumber",
+                    "name": "docstring",
+                    "version": "7.21.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "docstring",
+                            "path": "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\cucumber\\docstring\\7.21.1\\docstring-7.21.1.jar"
+                        },
+                        {
+                            "name": "docstring",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\cucumber\\docstring\\7.21.1\\docstring-7.21.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.cucumber",
+                    "name": "html-formatter",
+                    "version": "21.9.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "html-formatter",
+                            "path": "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\cucumber\\html-formatter\\21.9.0\\html-formatter-21.9.0.jar"
+                        },
+                        {
+                            "name": "html-formatter",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\cucumber\\html-formatter\\21.9.0\\html-formatter-21.9.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.cucumber",
+                    "name": "junit-xml-formatter",
+                    "version": "0.7.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "junit-xml-formatter",
+                            "path": "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\cucumber\\junit-xml-formatter\\0.7.1\\junit-xml-formatter-0.7.1.jar"
+                        },
+                        {
+                            "name": "junit-xml-formatter",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\cucumber\\junit-xml-formatter\\0.7.1\\junit-xml-formatter-0.7.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.cucumber",
+                    "name": "ci-environment",
+                    "version": "10.0.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "ci-environment",
+                            "path": "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\cucumber\\ci-environment\\10.0.1\\ci-environment-10.0.1.jar"
+                        },
+                        {
+                            "name": "ci-environment",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\cucumber\\ci-environment\\10.0.1\\ci-environment-10.0.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.opentest4j",
+                    "name": "opentest4j",
+                    "version": "1.2.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "opentest4j",
+                            "path": "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\opentest4j\\opentest4j\\1.2.0\\opentest4j-1.2.0.jar"
+                        },
+                        {
+                            "name": "opentest4j",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\opentest4j\\opentest4j\\1.2.0\\opentest4j-1.2.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.platform",
+                    "name": "junit-platform-commons",
+                    "version": "1.9.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "junit-platform-commons",
+                            "path": "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\junit\\platform\\junit-platform-commons\\1.9.1\\junit-platform-commons-1.9.1.jar"
+                        },
+                        {
+                            "name": "junit-platform-commons",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\junit\\platform\\junit-platform-commons\\1.9.1\\junit-platform-commons-1.9.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.cucumber",
+                    "name": "gherkin",
+                    "version": "31.0.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "gherkin",
+                            "path": "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\cucumber\\gherkin\\31.0.0\\gherkin-31.0.0.jar"
+                        },
+                        {
+                            "name": "gherkin",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\cucumber\\gherkin\\31.0.0\\gherkin-31.0.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.cucumber",
+                    "name": "query",
+                    "version": "13.2.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "query",
+                            "path": "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\cucumber\\query\\13.2.0\\query-13.2.0.jar"
+                        },
+                        {
+                            "name": "query",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\corra\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\cucumber\\query\\13.2.0\\query-13.2.0-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "test"
+        ]
+    }
+}
